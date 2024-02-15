@@ -1,3 +1,12 @@
+/*
+    C code that defines a simple Context Free Grammar and generates Words according to it.
+    S -> aA
+    A -> bA | cA | d
+*/
+
+
+
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
