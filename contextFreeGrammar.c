@@ -41,6 +41,12 @@ void S()
 int main()
 {
     srand(time(NULL));
-    S();
+    printf("enter number of words to generate: ");
+    int n;
+    scanf("%d", &n);
+    for (int i = 0; i < n; i++)
+    {
+        S();
+    }
     return 0;
 }
